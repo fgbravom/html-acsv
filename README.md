@@ -34,20 +34,16 @@ pip install beautifulsoup4 lxml
 
 ## Uso
 
-### 1. HTML a JSON
+### HTML a CSV
 
 1. Exporta tus marcadores desde el navegador como un archivo HTML.
 2. Coloca el archivo HTML en la misma carpeta que el script y asegúrate de que se llame `bookmarks.html`.
 3. Ejecuta el script. Esto generará un archivo `bookmarks.json` que contiene los marcadores extraídos.
+4. El script también lo convertirá automáticamente en un archivo `bookmarks.csv` con la estructura descrita anteriormente.
 
 ```bash
 python html_a_csv.py
 ```
-
-### 2. JSON a CSV
-
-Una vez generado el archivo `bookmarks.json`, el script también lo convertirá automáticamente en un archivo `bookmarks.csv` con la estructura descrita anteriormente.
-
 ### Ejemplo de JSON generado
 
 ```json
