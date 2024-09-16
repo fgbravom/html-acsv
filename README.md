@@ -1,4 +1,4 @@
-# Bookmark Converter
+# Convertidor de favoritos en CSV
 
 Este proyecto convierte un archivo de marcadores en formato HTML exportado desde navegadores como Chrome en un archivo CSV, pasando por una estructura intermedia en formato JSON.
 
