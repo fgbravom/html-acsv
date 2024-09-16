@@ -41,7 +41,7 @@ pip install beautifulsoup4 lxml
 3. Ejecuta el script. Esto generará un archivo `bookmarks.json` que contiene los marcadores extraídos.
 
 ```bash
-python script.py 
+python html_a_csv.py
 ```
 
 ### 2. JSON a CSV
